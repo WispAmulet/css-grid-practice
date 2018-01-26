@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "run-script-os",
-    "start:win32": "browser-sync start --server --files '**/*.html, **/*.css, **/*.js' --directory --port 7777 --browser \"C:\\Program Files\\FireFox Developer Edition\\firefox.exe\"",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser \"C:\\Program Files\\FireFox Developer Edition\\firefox.exe\"",
     "start:darwin:linux": "browser-sync start --server --files '**/*.html, **/*.css, **/*.js' --directory --port 7777 --browser 'FireFox Developer Edition'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
